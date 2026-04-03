@@ -1,0 +1,14 @@
+# Core dependencies (minimal)
+# neuronmesh has no required dependencies - they're all optional
+
+# Optional: OpenAI integration
+# openai>=1.0
+
+# Optional: Anthropic integration  
+# anthropic>=0.8
+
+# Optional: Redis for distributed memory
+# redis>=5.0
+
+# Optional: Vector database
+# qdrant-client>=1.7
