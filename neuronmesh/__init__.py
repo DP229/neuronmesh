@@ -19,7 +19,7 @@ from neuronmesh.agent import (
     create_researcher_agent,
 )
 
-from neuronmesh.memory import Memory, MemoryEntry, MemoryType
+from neuronmesh.memory import Memory, MemoryEntry, MemoryType, MemoryImportance
 
 from neuronmesh.brain import (
     Brain,
