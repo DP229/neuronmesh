@@ -48,7 +48,14 @@ from neuronmesh.tools import (
     MemoryStoreTool,
 )
 
-from neuronmesh.openloop import OpenLoopClient
+from neuronmesh.openloop import OpenLoopClient, TaskResult, NodeInfo, NetworkStats
+
+from neuronmesh.orchestrator import (
+    Orchestrator,
+    OrchestratorResult,
+    OrchestrationPattern,
+    AgentSpec,
+)
 
 __all__ = [
     # Version
@@ -97,4 +104,13 @@ __all__ = [
     
     # OpenLoop
     "OpenLoopClient",
+    "TaskResult",
+    "NodeInfo",
+    "NetworkStats",
+    
+    # Orchestrator
+    "Orchestrator",
+    "OrchestratorResult",
+    "OrchestrationPattern",
+    "AgentSpec",
 ]
