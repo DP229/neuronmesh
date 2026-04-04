@@ -1,14 +1,21 @@
-# Core dependencies (minimal)
-# neuronmesh has no required dependencies - they're all optional
+# Core
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
 
-# Optional: OpenAI integration
-# openai>=1.0
+# Optional: Cloud LLM providers
+openai>=1.0.0
+anthropic>=0.8.0
 
-# Optional: Anthropic integration  
-# anthropic>=0.8
-
-# Optional: Redis for distributed memory
-# redis>=5.0
+# Optional: Distributed memory
+redis>=5.0.0
 
 # Optional: Vector database
-# qdrant-client>=1.7
+qdrant-client>=1.7.0
+
+# Optional: Embeddings
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Optional: Monitoring
+prometheus-client>=0.19.0
